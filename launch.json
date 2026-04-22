@@ -1,0 +1,12 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Run Web App",
+      "type": "python",
+      "request": "launch",
+      "module": "uvicorn",
+      "args": ["app.web_api:app", "--reload"]
+    }
+  ]
+}
