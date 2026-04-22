@@ -6,7 +6,7 @@ load_dotenv()
 
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY", "")
 OPENAI_MODEL = os.getenv("OPENAI_MODEL", "gpt-5")
-MODEL_PATH = os.getenv("MODEL_PATH", "models/Mortgage4.mdl")
+MODEL_PATH = os.getenv("MODEL_PATH", "models/Daguul hot.mdl")
 OUTPUT_DIR = Path(os.getenv("OUTPUT_DIR", "output"))
 OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
 
